@@ -1,222 +1,194 @@
 * {
-    margin: 0px;               
-    padding: 0px;              
-    text-decoration: none;     
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
 }
 
 body {
-    font-family: Arial, sans-serif;
-    color: #333333;                 
+    font-family: Verdana, sans-serif;
+    color: #4e342e;
 }
 
 .wrapper {
     width: 1000px;
-    margin: auto;             
+    margin: auto;
+    overflow: hidden;
 }
 
-
+.tengah {
+    text-align: center;
+}
 
 nav {
-    background-color: #2e7d32;   
-    padding: 15px 0px;           
-    overflow: hidden;            
+    background-color: #5d4037;
+    padding: 20px 0px;
+    text-align: center;
 }
 
-.logo {
-    float: left;                 
-    line-height: 40px;          
+.judul-nav {
+    color: #ffe0b2;
+    font-size: 28px;
+    margin-bottom: 10px;
 }
 
-.logo a {
-    color: white;
-    font-size: 22px;
-    font-weight: bold;          
+nav ul {
+    list-style-type: none;
 }
 
-.menu {
-    float: right;                
-    line-height: 40px;
-}
-
-.menu ul {
-    list-style-type: none;      
-}
-
-.menu ul li {
-    display: inline-block;      
-}
-
-.menu ul li a {
-    color: white;
-    font-weight: bold;
-    padding: 0px 12px;
-}
-
-.menu ul li a:hover {
-    text-decoration: underline; 
-}
-
-
-.tombol {
-    background-color: #f9a825;   
-    color: white;
-    padding: 10px 18px;
-    border-radius: 20px;        
-    font-weight: bold;
+nav ul li {
     display: inline-block;
-    line-height: 20px;
 }
 
-.tombol:hover {
-    background-color: #e65100;  
+nav ul li a {
+    color: white;
+    padding: 0px 15px;
+    font-weight: bold;
 }
 
-
-
-header {
-    background-color: #c8e6c9;   
-    padding: 100px 0px;          
-    text-align: center;        
+nav ul li a:hover {
+    color: #ffb74d;
 }
-
-header h1 {
-    font-size: 55px;
-    color: #1b5e20;
-    margin: 10px 0px 20px 0px;  
-}
-
-header p {
-    margin-bottom: 20px;
-}
-
-
 
 section {
     padding: 60px 0px;
-    text-align: center;
 }
 
-.abu {
-    background-color: #f1f8e9;
+.krem {
+    background-color: #fff8e1;
 }
 
-.deskripsi {
-    font-size: 20px;
+.coklat {
+    background-color: #5d4037;
+    color: white;
+}
+
+.label {
+    color: #ef6c00;
     font-weight: bold;
-    color: #2e7d32;
+    font-size: 16px;
 }
 
 h2 {
-    font-size: 40px;
-    color: #1b5e20;
-    margin: 5px 0px 15px 0px;
+    font-size: 36px;
+    margin: 8px 0px 15px 0px;
 }
 
 h3 {
-    color: #2e7d32;
     margin-bottom: 8px;
 }
 
-
-
-.baris {
-    margin-top: 30px;
+p {
+    line-height: 26px;
+    margin-bottom: 10px;
 }
 
-.kartu {
-    display: inline-block;    
-    vertical-align: top;      
-    width: 180px;
-    padding: 20px;
-    margin: 10px;
-    background-color: white;
-    border-radius: 15px;
-    box-shadow: 0px 2px 8px #bbbbbb;  
+.kiri {
+    float: left;
+    width: 48%;
 }
 
-.kartu:hover {
-    background-color: #fff8e1;  
+.kanan {
+    float: right;
+    width: 48%;
 }
 
-.ikon {
-    font-size: 50px;
-}
-
-.angka h3 {
-    font-size: 32px;
-}
-
-
-.foto-besar {
-    width: 100%;                 
-    height: auto;                
-    margin-top: 40px;
-    border-radius: 20px;         
-}
-
-.foto-tengah {
-    width: 600px;
-    max-width: 100%;             
+.kiri img,
+.kanan img {
+    width: 100%;
     height: auto;
-    margin-top: 20px;
-    border-radius: 15px;
+    border-radius: 20px;
 }
 
-.foto-galeri {
-    width: 220px;
-    height: auto;
-    margin: 10px;
-    border-radius: 15px;
-    box-shadow: 0px 2px 8px #bbbbbb;
+.tombol {
+    display: inline-block;
+    background-color: #ef6c00;
+    color: white;
+    padding: 12px 22px;
+    border-radius: 8px;
+    font-weight: bold;
+    margin-top: 10px;
 }
 
-.foto-galeri:hover {
-    opacity: 0.8;                
+.tombol:hover {
+    background-color: #bf360c;
 }
 
-
-.footer-section {
+.kotak {
     display: inline-block;
     vertical-align: top;
     width: 200px;
-    margin: 10px;
-    text-align: left;            
+    padding: 15px;
+    margin: 20px 8px 0px 8px;
+    background-color: white;
+    border: 2px solid #ffcc80;
+    border-radius: 12px;
 }
 
-h4 {
-    font-size: 20px;
-    color: #2e7d32;
-    margin-bottom: 8px;
+.kotak img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
 }
 
+.kotak .ikon {
+    font-size: 70px;
+    margin-bottom: 10px;
+}
 
+.kotak:hover {
+    border-color: #ef6c00;
+}
+
+.harga {
+    display: inline-block;
+    background-color: #ef6c00;
+    color: white;
+    padding: 4px 12px;
+    border-radius: 15px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.berita {
+    text-align: left;
+    background-color: #fff8e1;
+    border-left: 6px solid #ef6c00;
+    padding: 15px 20px;
+    margin: 20px 100px 0px 100px;
+}
+
+.tanggal {
+    font-size: 13px;
+    color: #8d6e63;
+}
 
 #copyright {
-    background-color: #1b5e20;
+    background-color: #3e2723;
     color: white;
     text-align: center;
-    padding: 20px 0px;
+    padding: 18px 0px;
+    font-size: 14px;
 }
-
-
 
 @media screen and (max-width: 991px) {
 
     .wrapper {
-        width: 90%;             
+        width: 90%;
     }
 
-    .logo {
-        float: none;             
-        text-align: center;
+    .kiri,
+    .kanan {
+        float: none;
+        width: 100%;
+        margin-bottom: 20px;
     }
 
-    .menu {
-        float: none;            
-        text-align: center;
+    .berita {
+        margin: 20px 0px 0px 0px;
     }
 
-    header h1 {
-        font-size: 38px;         
+    h2 {
+        font-size: 28px;
     }
 }
